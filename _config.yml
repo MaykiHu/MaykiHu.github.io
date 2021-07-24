@@ -1,0 +1,25 @@
+title:              Mayki's Portfolio
+email:              MaykiHu8@gmail.com
+description:        About a Life-Long Learner and their Work
+author:             Mayki Hu
+baseurl:            ""
+url:                "https://MaykiHu.github.io"
+
+# Social Profiles
+twitter_username:   
+github_username: MaykiHu
+facebook_username:  
+instagram_username:  
+linkedin_username: mayki
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
